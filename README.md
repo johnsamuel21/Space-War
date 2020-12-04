@@ -9,7 +9,7 @@ The aliens are approaching us:
   
  # Follow the steps to play the game:-
   1. I assume that you have already installed python in your system(If not,install it). 
-  2.Downloed the zip folder from my repo and unzip it.
+  2. Download the zip folder from my repo and unzip it.
   3. You should have the pygame installed into ur python modules.
   (pip install pygame)
   4. That's it, just navigate to this folder in your terminal and run the file using this(python finalmain.py)
