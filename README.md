@@ -13,7 +13,7 @@ The aliens are approaching us:
   3. You should have the pygame installed into ur python modules.
   (pip install pygame)
   4. That's it, just navigate to this folder in your terminal and run the file using this(python finalmain.py)
-  5. Drop up some comments if you have any.
+  5. Drop the comments if you have any.
   
   ![alt text](https://github.com/johnsamuel21/Space-War/blob/main/gameplay/Game%20Over.png)
   
