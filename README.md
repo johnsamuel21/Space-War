@@ -15,6 +15,6 @@ The aliens are approaching us:
   4. That's it, just navigate to this folder in your terminal and run the file using this(python finalmain.py)
   5. Drop up some comments if you have any.
   
-  ![alt text](https://github.com/johnsamuel21/Space-War/blob/main/gameplay/Game\ Over.png?raw=true)
+  ![alt text](https://github.com/johnsamuel21/Space-War/blob/main/gameplay/Game Over.png?raw=true)
   
   If you get past 90 let me know :)
