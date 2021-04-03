@@ -10,7 +10,7 @@ choose_player = "sourcefile/player.png"
 
 #Welcome msg
 def welcomemsg():
-    loc = "/media/johnsamuel/New Volume/Projectgame/game1/sourcefile/pixelfont.ttf"
+    loc = "sourcefile/pixelfont.ttf"
     font = pygame.font.Font(loc,30)
     intro = font.render("WELCOME TO SPACE WAR ",True,(100,255,255))
     screen.blit(intro,(140,90))
@@ -32,7 +32,7 @@ def main_menu():
         button_2 = pygame.Rect(510,500,180,50)
 
         #menu screen options
-        loc = "/media/johnsamuel/New Volume/Projectgame/game1/sourcefile/pixelfont.ttf"
+        loc = "sourcefile/pixelfont.ttf"
         font = pygame.font.Font(loc,20)
         play = font.render("PLAY",True,(100,255,255))
         option = font.render("OPTION",True,(100,255,255))
@@ -82,13 +82,13 @@ def options_tab():
     while option_run:
         screen.blit(backg,(0,0))
 
-        loc = "/media/johnsamuel/New Volume/Projectgame/game1/sourcefile/pixelfont.ttf"
+        loc = "sourcefile/pixelfont.ttf"
         font = pygame.font.Font(loc,30)
         intro = font.render("CHOOSE YOUR BATTLE SPACE-SHIP",True,(100,255,255))
         screen.blit(intro,(30,25))
 
         mx,my = pygame.mouse.get_pos()
-        loc = "/media/johnsamuel/New Volume/Projectgame/game1/sourcefile/pixelfont.ttf"
+        loc = "sourcefile/pixelfont.ttf"
         font = pygame.font.Font(loc,20)
         back_key = font.render("BACK",True,(100,255,255))
         button_1 = pygame.Rect(83,100,100,100)
@@ -292,7 +292,7 @@ def game_over_text():
     screen.blit(finalscore,(240,320))
 
     mx,my = pygame.mouse.get_pos()
-    loc = "/media/johnsamuel/New Volume/Projectgame/game1/sourcefile/pixelfont.ttf"
+    loc = "sourcefile/pixelfont.ttf"
     font = pygame.font.Font(loc,20)
     pg_again = font.render("PLAY AGAIN",True,(100,255,255))
     main_back = font.render("MAIN MENU",True,(100,255,255))
